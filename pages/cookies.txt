@@ -1,0 +1,7 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.imdb.com	TRUE	/	FALSE	1999999999	uu	BCYgGbGtTfFScKxsJ4sQ14aFKG9hqoGnOyC3Ha7un00L-TsEK6sVGbtCjh0YEeVPfx1H5ultKp6Sobn5a_9y8DP_rmQlb0k4BuZpmTIeK7Ac0QDGVgLF61m_OUTXbLqvWntDpJlV8z787gay9VleIbMbfZwFORE0xIhlo55vx6SpKtXiUSR6RAIX9dHTcNS1WMhOaExC0ik3JHn1tYme8XC3VmNk8MXoxWzUnmXACMlc0zPGkmG-zwbH3c6-WVpgPMc5
+.imdb.com	TRUE	/	FALSE	1999999999	cs	n4mposhB3c0NZ/YtL0SwbQeBbbqgkVqM8BkNuqPiTTKz0g7pk4Iu6YCRXRoA0U26oKcq7CexbbqjxPleF9HN2fCRWyxAGW26oKdbraCRbbqgsW26oJFt+uDBHYqg==
+.imdb.com	TRUE	/	FALSE	1999999999	session-id	932-2465371-0678547
+.imdb.com	TRUE	/	FALSE	1999999999	session-id-time	1610145371
+

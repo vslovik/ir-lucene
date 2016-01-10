@@ -1,0 +1,44 @@
+HTTrack3.48-20 launched on Sun, 10 Jan 2016 22:36:11 at www.imdb.com/genre/fantasy -* +www.imdb.com/title/tt*[file]/*[] +www.imdb.com/title/tt*[file]/index.html*[]
+(httrack www.imdb.com/genre/fantasy -* +www.imdb.com/title/tt*[file]/*[] +www.imdb.com/title/tt*[file]/index.html*[] -r3 )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+22:36:14	Warning: 	Note: due to www.imdb.com remote robots.txt rules, links beginning with these path will be forbidden: /tvschedule, /ActorSearch, /ActressSearch, /AddRecommendation, /ads/, /AlternateVersions, /AName, /Awards, /BAgent, /Ballot/, /BornInYear, /BornWhere, /BPublicity, /BQuotes, /BTrivia, /BusinessThisDay, /BWorks, /careers, /help/show_leaf?careeratimdb, /CommentsAuthor, /CommentsEnter, /CommentsIndex, /Companies, /CrazyCredits, /Credits, /DiedInYear, /DiedWhere, /DVD, /ExciteTitle, /Find, /FName, /GName, /Guests, /harvest_me, /HelpPage, /Icons/, /JointVentures, /Laserdisc, /List, /Literature, /Locations, /LocationTree, /Lookup, /M/, /Maltin, /MarriedInYear, /MetaSearch, /Mlinks, /More, /Movies, /Movies/, /MyMovies, /mymovies/, /name_pick_n_mix, /Nsearch, /NUrls, /OnThisDay, /Ontv, /OnTV, /Overlap, /Pawards, /pick_n_mix, /PName, /Posters, /prepare_data, /Psales, /Quiz, /r/, /ra/, /Ratings, /rd/, /Recommendations, /register, /ReleaseDates, /ReleasedInYear, /Reviews, /rg/, /ri/, /RName, /Sales, /SearchAwards, /SearchBios, /SearchBusiness, /SearchCrazy, /SearchDVD, /SearchGoofs, /SearchLaserdisc, /SearchLiterature, /SearchPlots, /SearchPlotWriters, /SearchQuotes, /SearchRatios, /SearchSongs, /SearchTaglines, /SearchTechnical, /SearchTrivia, /SearchVersions, /ShowAll, /Showing, /SName, /Soundtracks, /Taglines, /Tawards, /Technical, /tiger_redirect, /Title/ASIN, /TitleBrowse, /Trailers, /Tsearch, /TUrls, /VName, /Vote, /WorkedWith, /updates, /board, /boards, /name/*/board, /title/*/board, /user/*/boards, /user/*/boards/, /lists/tt*, /lists/nm*, /character/*/select-* (see in the options to disable this)
+22:36:14	Warning: 	HTML file (211224 bytes) retransferred due to lack of cache: www.imdb.com/title/tt2488496/
+22:36:14	Warning: 	HTML file (231940 bytes) retransferred due to lack of cache: www.imdb.com/title/tt0076759/
+22:36:15	Warning: 	HTML file (235137 bytes) retransferred due to lack of cache: www.imdb.com/title/tt0120915/
+22:36:15	Warning: 	HTML file (184276 bytes) retransferred due to lack of cache: www.imdb.com/title/tt2527336/
+22:36:47	Warning: 	HTML file (232234 bytes) retransferred due to lack of cache: www.imdb.com/title/tt0086190/
+22:36:50	Warning: 	HTML file (190704 bytes) retransferred due to lack of cache: www.imdb.com/title/tt3748528/
+22:36:51	Warning: 	HTML file (232510 bytes) retransferred due to lack of cache: www.imdb.com/title/tt0121766/
+22:36:51	Warning: 	HTML file (186335 bytes) retransferred due to lack of cache: www.imdb.com/title/tt3385516/
+22:37:21	Warning: 	HTML file (226000 bytes) retransferred due to lack of cache: www.imdb.com/title/tt3332064/
+22:37:23	Warning: 	HTML file (203018 bytes) retransferred due to lack of cache: www.imdb.com/title/tt2975590/
+22:37:23	Warning: 	HTML file (231886 bytes) retransferred due to lack of cache: www.imdb.com/title/tt0080684/
+22:37:28	Warning: 	HTML file (236013 bytes) retransferred due to lack of cache: www.imdb.com/title/tt0121765/
+22:37:55	Warning: 	HTML file (230933 bytes) retransferred due to lack of cache: www.imdb.com/title/tt2096673/
+22:37:56	Warning: 	HTML file (184683 bytes) retransferred due to lack of cache: www.imdb.com/title/tt1979388/
+22:38:00	Warning: 	HTML file (197358 bytes) retransferred due to lack of cache: www.imdb.com/title/tt3850590/
+22:38:05	Warning: 	HTML file (206169 bytes) retransferred due to lack of cache: www.imdb.com/title/tt2974918/
+22:38:31	Warning: 	HTML file (233945 bytes) retransferred due to lack of cache: www.imdb.com/title/tt0241527/
+22:38:32	Warning: 	HTML file (232025 bytes) retransferred due to lack of cache: www.imdb.com/title/tt1201607/
+22:38:35	Warning: 	HTML file (170866 bytes) retransferred due to lack of cache: www.imdb.com/title/tt1211837/
+22:38:40	Warning: 	HTML file (190935 bytes) retransferred due to lack of cache: www.imdb.com/title/tt3183660/
+22:39:05	Warning: 	HTML file (229969 bytes) retransferred due to lack of cache: www.imdb.com/title/tt1661199/
+22:39:08	Warning: 	HTML file (228689 bytes) retransferred due to lack of cache: www.imdb.com/title/tt2554274/
+22:39:09	Warning: 	HTML file (223377 bytes) retransferred due to lack of cache: www.imdb.com/title/tt1051904/
+22:39:09	Warning: 	HTML file (233395 bytes) retransferred due to lack of cache: www.imdb.com/title/tt0120737/
+22:39:40	Warning: 	HTML file (229883 bytes) retransferred due to lack of cache: www.imdb.com/title/tt2510894/
+22:39:44	Warning: 	HTML file (231402 bytes) retransferred due to lack of cache: www.imdb.com/title/tt0167260/
+22:39:45	Warning: 	HTML file (231353 bytes) retransferred due to lack of cache: www.imdb.com/title/tt0167261/
+22:40:44	Warning: 	HTML file (232319 bytes) retransferred due to lack of cache: www.imdb.com/title/tt0499549/
+22:40:44	Warning: 	HTML file (228966 bytes) retransferred due to lack of cache: www.imdb.com/title/tt0298148/
+22:40:45	Warning: 	HTML file (216484 bytes) retransferred due to lack of cache: www.imdb.com/title/tt0249516/
+22:41:13	Warning: 	HTML file (208198 bytes) retransferred due to lack of cache: www.imdb.com/title/tt0421051/
+22:41:15	Warning: 	HTML file (229244 bytes) retransferred due to lack of cache: www.imdb.com/title/tt0362165/
+
+HTTrack Website Copier/3.48-20 mirror complete in 5 minutes 24 seconds : 42 links scanned, 41 files written (8795378 bytes overall) [7308017 bytes received at 22555 bytes/sec], 1860258 bytes transferred using HTTP compression in 9 files, ratio 17%
+(No errors, 33 warnings, 0 messages)

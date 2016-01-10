@@ -1,0 +1,8 @@
+www.imdb.com/genre/fantasy -* +www.imdb.com/title/tt*[file]/*[] +www.imdb.com/title/tt*[file]/index.html*[] -r3
+File generated automatically on Sun, 10 Jan 2016 22:36:11, do NOT edit
+
+To update a mirror, just launch httrack without any parameters
+The existing cache will be used (and modified)
+To have other options, retype all parameters and launch HTTrack
+To continue an interrupted mirror, just launch httrack without any parameters
+

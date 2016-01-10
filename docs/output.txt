@@ -1,0 +1,81 @@
+vagrant@vagrant-ubuntu-vivid-64:~/project/ir-lucene/code$ python create_index.py
+Obama u.s.a. NATO
+obama usa N.A.T.O
+the cat meows
+Currently there are 1 documents in the index...
+Currently there are 2 documents in the index...
+Currently there are 3 documents in the index...
+
+ls -ltr test_index/
+total 40
+-rw-rw-r-- 1 vagrant vagrant  28 gen 10 23:07 _0.fdx
+-rw-rw-r-- 1 vagrant vagrant  63 gen 10 23:07 _0.fdt
+-rw-rw-r-- 1 vagrant vagrant 117 gen 10 23:07 _0.tis
+-rw-rw-r-- 1 vagrant vagrant  35 gen 10 23:07 _0.tii
+-rw-rw-r-- 1 vagrant vagrant   9 gen 10 23:07 _0.prx
+-rw-rw-r-- 1 vagrant vagrant   9 gen 10 23:07 _0.frq
+-rw-rw-r-- 1 vagrant vagrant   7 gen 10 23:07 _0.nrm
+-rw-rw-r-- 1 vagrant vagrant  12 gen 10 23:07 _0.fnm
+-rw-rw-r-- 1 vagrant vagrant  20 gen 10 23:07 segments.gen
+-rw-rw-r-- 1 vagrant vagrant 255 gen 10 23:07 segments_1
+
+vagrant@vagrant-ubuntu-vivid-64:~/project/ir-lucene/code$ python search_index.py
+Insert a query:
+cat
+Found 1 document(s) that matched query 'text:cat':
+score:0.702732563019 doc_id:2 text:the cat meows
+
+vagrant@vagrant-ubuntu-vivid-64:~/project/ir-lucene/code$ python search_index.py
+Insert a query:
+u.s.a.
+Found 1 document(s) that matched query 'text:u.s.a.':
+score:0.702732563019 doc_id:0 text:Obama u.s.a. NATO
+
+vagrant@vagrant-ubuntu-vivid-64:~/project/ir-lucene/code$ python search_index.py
+Insert a query:
+OBAMA
+Found 0 document(s) that matched query 'text:OBAMA':
+
+vagrant@vagrant-ubuntu-vivid-64:~/project/ir-lucene/code$ python search_index.py
+Insert a query:
+N.A.T.O.
+Found 0 document(s) that matched query 'text:N.A.T.O.':
+
+-----------------------------------------------------------------------------------
+
+vagrant@vagrant-ubuntu-vivid-64:~/project/ir-lucene/code$ python create_index.py
+Obama u.s.a. NATO
+obama usa N.A.T.O.
+the cat meows
+Currently there are 1 documents in the index...
+Currently there are 2 documents in the index...
+Currently there are 3 documents in the index...
+
+vagrant@vagrant-ubuntu-vivid-64:~/project/ir-lucene/code$ python search_index.py
+Insert a query:
+cat
+Found 1 document(s) that matched query 'text:cat':
+score:0.878415703773 doc_id:2 text:the cat meows
+
+vagrant@vagrant-ubuntu-vivid-64:~/project/ir-lucene/code$ python search_index.py
+Insert a query:
+u.s.a.
+Found 2 document(s) that matched query 'text:usa':
+score:0.5 doc_id:0 text:Obama u.s.a. NATO
+score:0.5 doc_id:1 text:obama usa N.A.T.O.
+
+vagrant@vagrant-ubuntu-vivid-64:~/project/ir-lucene/code$ python search_index.py
+Insert a query:
+OBAMA
+Found 2 document(s) that matched query 'text:obama':
+score:0.5 doc_id:0 text:Obama u.s.a. NATO
+score:0.5 doc_id:1 text:obama usa N.A.T.O.
+
+vagrant@vagrant-ubuntu-vivid-64:~/project/ir-lucene/code$ python search_index.py
+Insert a query:
+N.A.T.O.
+Found 2 document(s) that matched query 'text:nato':
+score:0.5 doc_id:0 text:Obama u.s.a. NATO
+score:0.5 doc_id:1 text:obama usa N.A.T.O.
+
+
